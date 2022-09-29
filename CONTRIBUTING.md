@@ -1,3 +1,5 @@
+Doing more tests
+
 # Getting started
 
 - Ensure you have node version 14 installed (suggestion: v14.18.1).
@@ -10,6 +12,7 @@
 The monorepo has a script that generates Storybook reproductions based on configurations set in the `code/lib/cli/src/repro-templates.ts` file. This makes it possible to quickly bootstrap examples with and without Storybook, for given configurations (e.g. CRA, Angular, Vue, etc.)
 
 To do so:
+
 - Check the `code/lib/cli/src/repro-templates.ts` if you want to see what will be generated
 - Run `./generate-repros.sh`
 - Check the result in the `repros` directory
